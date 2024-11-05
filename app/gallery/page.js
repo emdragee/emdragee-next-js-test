@@ -3,7 +3,7 @@ import React from 'react';
 import {useState} from 'react';
 import {sculptureList} from "../data/list"
 import Image from 'next/image';
-export const runtime = "edge";
+
 const Gallery = () => {
     const [index, setIndex] = useState(0);
 
